@@ -12,19 +12,41 @@ A CLI and API wrapper around [Facebook's Demucs](https://github.com/facebookrese
 
 ## Installation
 
+### Option A: Conda (recommended)
+
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/demucs-separator.git
+git clone https://github.com/SciTechDude/demucs-separator.git
 cd demucs-separator
+
+# Create dedicated conda environment
+conda create -n demucs python=3.11 -y
+conda activate demucs
 
 # Install dependencies
 pip install -r requirements.txt
+```
+
+### Option B: pip (existing environment)
+
+```bash
+git clone https://github.com/SciTechDude/demucs-separator.git
+cd demucs-separator
+pip install -r requirements.txt
+```
+
+### Option C: Docker (no local setup)
+
+```bash
+docker build -t demucs-separator .
+docker run -v $(pwd):/data demucs-separator /data/input.wav --vocals-only --output /data/output/
 ```
 
 ### System Requirements
 
 - Python 3.9+
 - ffmpeg (for audio format conversion)
+- ~2GB disk for model weights (downloaded on first run)
 
 Install ffmpeg:
 ```bash

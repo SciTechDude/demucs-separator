@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+output/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# Demucs model cache
+pretrained/
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage

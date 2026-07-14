@@ -304,6 +304,13 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
+## Blog & Articles
+
+- **Medium:** [Building a Production Audio Separation API with Meta's Demucs](https://medium.com/@anilmandra/building-a-production-audio-separation-api-with-metas-demucs-a484227773f8)
+- **LinkedIn:** [Simplifying Audio Source Separation: A CLI + API Wrapper for Meta's Demucs](https://www.linkedin.com/in/anilmandra/)
+
+---
+
 ## Contributing
 
 Contributions welcome! Please open an issue first to discuss what you'd like to change.
